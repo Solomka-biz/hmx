@@ -1,0 +1,138 @@
+.form
+  &__block
+    position: relative
+    margin-bottom: 40px
+
+    $ml: -15px
+    margin-left: $ml
+    margin-right: $ml
+
+    +media-breakpoint-up(sm)
+      $ml: -30px
+      margin-left: $ml
+      margin-right: $ml
+
+    +media-breakpoint-up(md)
+      $ml: -60px
+      margin-left: $ml
+      margin-right: $ml
+
+    +media-breakpoint-up(lg)
+      $ml: -85px
+      margin-left: $ml
+      margin-right: $ml
+      margin-bottom: 75px
+
+  &__container
+    padding: 15px
+    background-color: $bg-color-form
+
+    +media-breakpoint-up(sm)
+      border-radius: 3px
+      padding: 35px
+
+    +media-breakpoint-up(md)
+      box-shadow: 3px 3px 0 0 rgba(148, 148, 148, 0.28)
+      padding: 30px
+
+    +media-breakpoint-up(md)
+      padding: 50px
+
+    +media-breakpoint-up(xl)
+      padding: 54px
+
+    form
+      display: flex
+      flex-direction: column
+
+  &__header
+    @extend h4
+    font-family: $font-2-bold
+    margin-bottom: 40px
+
+    +media-breakpoint-only(xs)
+      br
+        display: none
+
+    +media-breakpoint-up(md)
+      font-size: rem-calc(34)
+      margin-bottom: 70px
+
+  &__input
+    @extend .form-group
+    margin-bottom: 2rem
+
+    +media-breakpoint-up(sm)
+      &,
+      & input,
+      & .input-group-text
+        font-size: rem-calc(18)
+
+      input,
+      .input-group-text
+        height: 40px
+
+    +media-breakpoint-up(md)
+      display: flex
+      align-items: center
+
+    +media-breakpoint-up(xl)
+      &,
+      input,
+      .input-group-text
+        font-size: rem-calc(25)
+
+      input,
+      .input-group-text
+        height: 50px
+
+    input
+      @extend .form-control
+
+    > input,
+    > .input-group
+
+      +media-breakpoint-up(md)
+        width: 60%
+        margin-left: auto
+
+    .input-group-text
+      background-color: #fcfcfc
+
+    input,
+    .input-group-text
+      border: 0
+
+  &__havent,
+  &__field-errors
+    font-size: rem-calc(14)
+    text-align: right
+    margin-top: -1rem
+    margin-bottom: 0
+
+    +media-breakpoint-up(md)
+      margin-top: -2rem
+      margin-bottom: 2rem
+
+  &__field-errors
+    color: #f15a24
+
+  &__submit
+    width: 100%
+    font-family: $font-2-bold
+    margin-top: 1rem
+    margin-bottom: 0
+
+    +media-breakpoint-up(sm)
+      width: 30%
+      align-self: center
+      font-size: rem-calc(18)
+
+    +media-breakpoint-up(md)
+      width: 60%
+      margin-top: 0
+      margin-left: auto
+      align-self: auto
+
+    +media-breakpoint-up(xl)
+      font-size: rem-calc(26)

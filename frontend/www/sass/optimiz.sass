@@ -1,0 +1,115 @@
+.optimiz
+  position: relative
+  margin-bottom: 40px
+
+  +media-breakpoint-up(lg)
+    margin-bottom: 75px
+
+  > .title
+    font-family: $font-2-bold
+    margin-bottom: 40px
+
+    +media-breakpoint-up(md)
+      font-size: rem-calc(38)
+      margin-left: 28px
+
+    +media-breakpoint-up(lg)
+      font-size: rem-calc(42)
+
+    +media-breakpoint-up(xl)
+      font-size: rem-calc(46)
+
+  > .block
+    position: relative
+    display: flex
+    margin-bottom: 60px
+
+    flex-direction: column
+
+    +media-breakpoint-up(sm)
+      flex-direction: row
+
+    .img
+      position: relative
+
+      +media-breakpoint-only(xs)
+        margin-left: -15px
+        margin-right: auto
+        margin-bottom: 15px
+
+      &__container
+        position: relative
+
+        +media-breakpoint-up(sm)
+          transform: translate(-30px, 15%)
+
+        +media-breakpoint-up(md)
+          transform: translate(-20%, 15%)
+
+        +media-breakpoint-up(lg)
+          transform: translate(-60%, 15%)
+
+        svg
+          +media-breakpoint-only(xs)
+            transform: scaleX(-1)
+
+        .text
+          position: absolute
+          top: 50%
+          left: 55%
+          transform: translate(-50%, -50%)
+          color: white
+
+          font-family: $font-title
+          font-size: rem-calc(20)
+
+          line-height: 1.27
+
+          +media-breakpoint-only(xs)
+            left: 45%
+
+          &.numbers
+            line-height: 0.45
+            font-size: rem-calc(40)
+
+            > span
+              font-family: $font-2
+              font-size: rem-calc(15)
+
+
+    > .full-text
+
+      > .name
+        margin-bottom: 5px
+        font-family: $font-title
+        font-size: rem-calc(30)
+        letter-spacing: 2px
+        color: #ff553b
+
+        +media-breakpoint-up(sm)
+          margin-bottom: 20px
+
+      > .description
+
+        +media-breakpoint-up(md)
+          width: 90%
+          font-size: rem-calc(19)
+
+  .flag-leader
+    position: relative
+    text-align: center
+
+    .text
+      font-family: $font-title
+      font-size: rem-calc(50)
+      line-height: 0.7
+      color: white
+
+      position: absolute
+      top: 14%
+      left: 50%
+      transform: translate(-50%, 0)
+
+      > span
+        font-family: $font-2
+        font-size: rem-calc(30)

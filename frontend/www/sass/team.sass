@@ -1,0 +1,35 @@
+.team
+  margin-top: 40px
+
+  &__item
+    margin-bottom: 60px
+
+    +media-breakpoint-up(md)
+      margin-bottom: 45px
+
+    +media-breakpoint-up(lg)
+      padding-left: 0
+      padding-right: 0
+
+  &__photo
+    margin-bottom: 15px
+    border-radius: 50%
+
+    +media-breakpoint-down(sm)
+      width: 160px
+
+  &__name
+    font-family: $font-3
+    color: $names-color
+    font-size: rem-calc(22)
+    margin-bottom: 5px
+
+  &__post
+    font-family: $font-title
+    font-size: rem-calc(18)
+
+    +media-breakpoint-up(lg)
+      font-size: rem-calc(22)
+
+    +media-breakpoint-up(xl)
+      font-size: rem-calc(24)

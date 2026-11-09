@@ -1,0 +1,205 @@
+#page-body
+  position: relative
+  z-index: 1
+
+  +media-breakpoint-up(md)
+    padding-left: 0
+    padding-right: 0
+
+  .body__main
+    padding-top: 30px
+
+    +media-breakpoint-up(md)
+      padding-top: 40px
+
+    >div
+      position: relative
+      z-index: 2
+
+    +media-breakpoint-up(md)
+      &:after
+        position: absolute
+        z-index: 0
+        content: ''
+        background: url(../images/triangle-big.svg) no-repeat 50% 0
+        background-size: 100% 100%
+        left: 50%
+        transform: translateX(-50%)
+        top: -55px
+
+    &:after
+      +media-breakpoint-only(md)
+        width: 752px
+        height: 275px
+
+      +media-breakpoint-only(lg)
+        width: 908px
+        height: 285px
+
+      +media-breakpoint-up(xl)
+        width: 908px
+        height: 309px
+
+
+  .main__header_index
+    img
+      margin-bottom: 30px
+
+      +media-breakpoint-up(md)
+        width: 520px
+
+      +media-breakpoint-up(lg)
+        width: 600px
+
+      +media-breakpoint-up(xl)
+        width: 652px
+
+  .main__header
+    +media-breakpoint-up(md)
+      text-align: center
+
+    +media-breakpoint-only(lg)
+      margin-left: -120px
+      margin-right: -120px
+
+    +media-breakpoint-up(xl)
+      margin-left: -160px
+      margin-right: -160px
+
+    &:not(.main__header_index)
+      .main__largeTitle
+        color: #000
+
+        +media-breakpoint-up(md)
+          letter-spacing: 2.7px
+          font-size: rem-calc(80)
+
+        //+media-breakpoint-up(xl)
+        //  font-size: rem-calc(96)
+
+
+      .main__title
+        font-size: rem-calc(20)
+
+        +media-breakpoint-up(md)
+          font-size: rem-calc(32)
+          line-height: rem-calc(32)
+
+  .main__analizer-title
+    font-size: rem-calc(32)
+    color: #333
+    margin-bottom: 30px
+
+    +media-breakpoint-up(md)
+      text-align: center
+
+  .main__largeTitle_order
+    color: #000
+
+    +media-breakpoint-up(md)
+      letter-spacing: 2.7px
+      font-size: rem-calc(45)
+      margin-bottom: 20px
+
+    +media-breakpoint-up(lg)
+      font-size: rem-calc(50)
+
+    +media-breakpoint-up(xl)
+      font-size: rem-calc(60)
+
+  .main__title_order
+    font-size: rem-calc(20)
+
+    +media-breakpoint-up(md)
+      font-size: rem-calc(30)
+      text-align: center
+
+    +media-breakpoint-up(lg)
+      font-size: rem-calc(34)
+
+    +media-breakpoint-up(xl)
+      font-size: rem-calc(40)
+
+
+  .main__header_index .main__title
+    +media-breakpoint-up(xl)
+      font-size: rem-calc(48)
+
+  .main__title
+    +media-breakpoint-down(sm)
+      br
+        display: none
+
+  .main__header_index .main__title,
+  .main__largeTitle,
+  .main__largeTitle_order
+    font-family: $font-title
+
+    +media-breakpoint-down(sm)
+      margin-bottom: 40px
+
+  .main__header
+
+    +media-breakpoint-down(sm)
+      padding-bottom: 40px
+
+    +media-breakpoint-up(md)
+      height: 170px
+
+    +media-breakpoint-up(lg)
+      height: 189px
+
+    +media-breakpoint-up(xl)
+      height: 212px
+
+
+  .main__inner,
+  .inside__bottom
+    background-color: white
+
+    +media-breakpoint-up(md)
+      padding-left: 35px
+      padding-right: 35px
+      margin-bottom: 50px
+
+  .inside__bottom
+    z-index: 1 !important
+    padding-top: 100px
+
+  .main__benefits
+    margin-bottom: 40px
+
+
+    .benefits
+      &__item
+        margin-bottom: 40px
+        text-align: center
+
+        +media-breakpoint-down(sm)
+          br
+            display: none
+
+        +media-breakpoint-up(md)
+          margin-bottom: 20px
+          text-align: center
+
+      &__icon_comlete
+        height: 84px
+        margin-bottom: 3px
+
+      &__icon_start
+        margin-bottom: 3px
+
+      &__icon_for_sure
+        height: 94px
+        margin-top: -7px
+
+      &__title
+        font-family: $font-2-bold
+        font-size: rem-calc(22)
+        text-transform: uppercase
+        margin: 20px 15px 15px 0
+        line-height: 27px
+
+        +media-breakpoint-up(md)
+          margin-left: 15px

@@ -1,0 +1,315 @@
+.clients
+  position: relative
+  margin-bottom: 40px
+
+  +media-breakpoint-up(lg)
+    margin-bottom: 75px
+
+  > .title
+    font-family: $font-2-bold
+    margin-bottom: 40px
+
+    +media-breakpoint-up(md)
+      font-size: rem-calc(38)
+      margin-left: 28px
+
+    +media-breakpoint-up(lg)
+      font-size: rem-calc(42)
+
+    +media-breakpoint-up(xl)
+      font-size: rem-calc(46)
+
+  > .block
+    position: relative
+    display: flex
+    margin-bottom: 60px
+    flex-direction: column
+
+    > .about
+      position: relative
+      display: flex
+      flex-direction: column
+
+      margin-bottom: 40px
+
+      +media-breakpoint-up(sm)
+        flex-direction: row
+
+      .img
+        position: relative
+
+        +media-breakpoint-only(xs)
+          margin-left: -15px
+          margin-right: auto
+          margin-bottom: 30px
+
+        &__container
+          position: relative
+
+          +media-breakpoint-only(sm)
+            transform: none
+            margin-right: 30px
+            margin-left: -90px
+
+          +media-breakpoint-up(md)
+            transform: translate(-45%, 15%)
+
+          +media-breakpoint-up(lg)
+            transform: translate(-50%, 15%)
+
+          svg
+            +media-breakpoint-only(xs)
+              transform: scaleX(-1)
+
+          .text
+            position: absolute
+            top: 50%
+            right: 7%
+            transform: translate(0, -50%)
+            color: white
+
+            font-size: rem-calc(17)
+
+            line-height: 22px
+
+            +media-breakpoint-only(xs)
+              left: 15px
+              right: auto
+
+            +media-breakpoint-up(sm)
+              text-align: right
+
+            &.numbers
+              line-height: 0.45
+              font-size: rem-calc(40)
+
+              > span
+                font-family: $font-2
+                font-size: rem-calc(15)
+
+
+      > .full-text
+
+        +media-breakpoint-up(md)
+          margin-top: 20px
+          margin-left: -85px
+
+        > .name
+          font-family: $font-title
+          font-size: rem-calc(30)
+          letter-spacing: 2px
+          color: #ff553b
+
+          +media-breakpoint-down(sm)
+            line-height: 28px
+
+          +media-breakpoint-only(sm)
+            margin-top: 15px
+            margin-bottom: 10px
+
+        > .site
+          color: #777
+          margin-bottom: 15px
+
+          +media-breakpoint-up(sm)
+            margin-top: -10px
+            margin-bottom: 20px
+
+        > .description
+
+          +media-breakpoint-up(md)
+            width: 90%
+            font-size: rem-calc(19)
+
+    > .review
+      display: flex
+
+      +media-breakpoint-only(xs)
+        flex-direction: column
+
+      > .text
+        position: relative
+        padding: 27px 48px 33px 28px
+        color: #2c2c2c
+        background-color: #f3f3f3
+        border-radius: 2px
+        margin-right: 30px
+
+        +media-breakpoint-only(xs)
+          display: flex
+          margin-right: 0
+          margin-bottom: 40px
+          padding: 20px
+
+        &:after
+          content: ' '
+          position: absolute
+          top: 23px
+          right: -27px
+          width: 0
+          height: 0
+          border-top: 0 solid transparent
+          border-bottom: 27px solid transparent
+          border-left: 27px solid #f3f3f3
+
+          +media-breakpoint-only(xs)
+            top: auto
+            right: auto
+            left: 50px
+            bottom: -27px
+
+      > .reviewer
+        text-align: center
+        margin-left: 15px
+        margin-right: 15px
+
+        +media-breakpoint-only(xs)
+          display: flex
+          align-items: center
+          text-align: left
+          margin-left: 0
+
+        > .img
+          margin-bottom: 12px
+
+          +media-breakpoint-only(xs)
+            margin-bottom: 0
+            margin-right: 30px
+
+          img
+            width: 70px
+            border-radius: 50%
+
+        > .name
+          font-size: rem-calc(15)
+          color: #000
+          line-height: 18px
+          margin-bottom: 5px
+
+          +media-breakpoint-only(xs)
+            margin-right: 20px
+
+            br
+              display: none
+
+
+        > .post
+          font-size: rem-calc(13)
+          color: #838383
+          line-height: 18px
+          margin-bottom: 5px
+
+          +media-breakpoint-only(xs)
+            br
+              display: none
+
+
+  &__item
+    display: flex
+    flex-direction: column
+    margin-bottom: 60px
+
+    +media-breakpoint-only(xs)
+      align-items: center
+
+      >div
+        margin-bottom: 30px
+
+    +media-breakpoint-only(sm)
+      flex-wrap: wrap
+      align-items: center
+
+      >div
+        margin-bottom: 30px
+
+    +media-breakpoint-up(sm)
+      flex-direction: row
+
+    +media-breakpoint-up(md)
+      margin-bottom: 30px
+
+  &__left
+    width: 205px
+    flex-shrink: 0
+    text-align: center
+
+    +media-breakpoint-only(sm)
+      width: 50%
+
+  &__center
+    display: flex
+
+    +media-breakpoint-only(sm)
+      width: 50%
+      justify-content: center
+
+    +media-breakpoint-up(md)
+      margin-left: 30px
+      margin-right: 30px
+
+  &__right
+    font-size: rem-calc(15)
+
+  &__name
+    font-size: rem-calc(19)
+    line-height: 26px
+
+  &__tags
+    display: flex
+    flex-wrap: wrap
+    //justify-content: center
+
+  &__tag
+    margin: 8px 5px 0
+    color: #696868
+    text-transform: uppercase
+    border-radius: 4px
+    padding: 3px 12px
+    font-size: rem-calc(10)
+
+    &_pink
+      background-color: #ffcfcf
+
+    &_blue
+      background-color: #cfecff
+
+    &_green
+      background-color: #c4f8e6
+
+    &_yellow
+      background-color: #faf9a7
+
+    &_greenlight
+      background-color: #ccfaa7
+
+    &_orange
+      background-color: #FCD3BE
+
+    &_bluelight
+      background-color: #D8F9FA
+
+  &__circle
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 160px
+    height: 160px
+    border-radius: 50%
+    background-color: #f5f5f5
+    transition: background-color 0.2s linear 0.1s
+
+    &:hover
+      background-color: #cfecff
+
+  &__cwrap
+    text-align: center
+
+  &__logo
+    max-width: 120px
+    max-height: 70px
+    margin-bottom: 5px
+
+  &__site
+    display: block
+    color: #4b97ba
+    font-size: rem-calc(14)

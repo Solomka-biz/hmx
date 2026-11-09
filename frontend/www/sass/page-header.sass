@@ -1,0 +1,112 @@
+#page-header
+  font-family: $font-2
+  position: relative
+  z-index: 2
+
+  >.container
+    +media-breakpoint-up(xl)
+      max-width: 1040px
+
+
+#header-menu-mobile
+  +media-breakpoint-up(md)
+    display: none
+
+  .navbar-brand
+    @media (max-width: 473px)
+      flex: 0 0 100%
+
+    .logo
+      img
+        width: 185px
+
+  .phone
+    font-size: rem-calc(20)
+    color: #508394
+
+#navbar-mobile
+  margin-left: -15px
+  margin-right: -15px
+
+  hr
+    margin-left: 15px
+    margin-right: 15px
+
+  .nav-item
+    padding: 0 15px
+
+    &.active
+      background: $menu-active-bg
+
+
+#header-menu
+  margin-top: 46px
+  margin-left: -10px
+  margin-right: -10px
+
+  +media-breakpoint-down(sm)
+    display: none
+
+  > ul
+    display: flex
+    justify-content: space-between
+    padding: 0
+
+    > li
+      font-size: rem-calc(14)
+      padding: 3px 10px 3px 10px
+
+      +media-breakpoint-up(lg)
+        font-size: rem-calc(18)
+        padding: 1px 10px 0 10px
+
+      +media-breakpoint-up(xl)
+        font-size: rem-calc(20)
+        padding: 0 10px 3px 10px
+
+      &.active
+        background-color: $menu-active-bg
+        border-radius: 3px
+
+        a
+          padding-bottom: 0 !important
+          border-bottom: 0 !important
+
+      &.item-main-active
+        visibility: hidden
+
+      &.menu-item
+        &-main-page
+          padding-top: 0
+
+          +media-breakpoint-up(lg)
+            padding: 0
+
+          a
+            &:hover
+              filter: drop-shadow(0 0 4px #ffffff)
+
+          +media-breakpoint-only(md)
+            img
+              width: 150px
+
+          &-active
+            visibility: hidden
+
+        &-phone
+          a
+            color: #508394
+
+        &-phone,
+        &-main-page
+          a
+            border: 0 !important
+
+
+      a
+        color: black
+        padding-bottom: 2px
+        border-bottom: 2px solid #90C4D6
+
+        &:hover
+          border-bottom-color: $names-color
