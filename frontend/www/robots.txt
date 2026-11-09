@@ -1,0 +1,14 @@
+User-agent: *
+
+Allow: /
+Disallow: /def.html
+Disallow: /skrins/
+Disallow: /report.html
+Disallow: /akziya.html
+Disallow: *?analyzerError=1
+Disallow: /new/
+Disallow: /articles/
+Disallow: /page/
+
+Host: https://www.hmx.ru
+Sitemap: https://www.hmx.ru/Sitemap.xml
