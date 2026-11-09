@@ -1,0 +1,40 @@
+/**
+ *
+ */
+
+.b-calculatorTable {
+}
+
+.b-calculatorTable__table {
+    margin:      7px 0;
+    border-left: 1px solid #CCCCCC;
+    border-top:  1px solid #CCCCCC;
+
+    width:       363px;
+}
+
+.b-calculatorTable__table caption {
+    font-style: normal;
+    color:      #aaa;
+    text-align: left;
+}
+
+.b-calculatorTable__table th {
+    text-align:     center;
+    border-bottom:  1px solid #CCCCCC;
+    border-right:   1px solid #CCCCCC;
+    border-top:     1px solid #CCCCCC;
+    padding:        0 5px;
+    letter-spacing: 1px;
+    line-height:    22px;
+    font-size:      90%;
+    font-weight:    bold;
+    background:     #EEEEF0 0 0 no-repeat;
+}
+
+.b-calculatorTable__table td {
+    padding:       4px 5px;
+    color:         #555;
+    border-bottom: 1px solid #CCCCCC;
+    border-right:  1px solid #CCCCCC;
+}

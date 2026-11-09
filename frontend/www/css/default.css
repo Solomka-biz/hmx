@@ -1,0 +1,344 @@
+/** BASIC */
+body {
+    margin:     0;
+    padding:    0;
+    background: #FFFFFF url(/images/homepage01.jpg) repeat left top;
+}
+
+/** FORMS */
+
+form {
+    margin:  0;
+    padding: 0;
+}
+
+/** HEADINGS */
+
+h1, h2 {
+    margin:         0 0 1em 0;
+    letter-spacing: -.05em;
+    font-family:    Georgia, "Times New Roman", Times, serif;
+    font-weight:    normal;
+    color:          #575757;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+h3 {
+    margin:    0 0 1em 0;
+    font-size: 100%;
+    color:     #616161;
+}
+
+h4 {
+    margin:    0 0 1em 0;
+    font-size: 12px;
+    color:     #000;
+}
+
+/** MENU */
+
+#menu {
+    float: right;
+}
+
+#menu ul {
+    margin:      0;
+    padding:     45px 20px 0 0;
+    list-style:  none;
+    line-height: normal;
+}
+
+#menu li {
+    float:      left;
+    height:     42px;
+    padding:    10px 14px 0 16px;
+    background: url(/images/homepage05.gif) no-repeat left top;
+}
+
+#menu li.first {
+    background: none;
+}
+
+#menu a {
+    text-decoration: none;
+    font-size:       16px;
+    font-family:     "Georgia", "Times New Roman", Times, serif;
+    color:           #FFFFFF;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+/** TEXTS */
+
+body, th, td, input, textarea, select {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:   13px;
+    color:       #707070;
+}
+
+p, ul, ol, dl {
+    margin-top:    0;
+    margin-bottom: 1.5em;
+    text-align:    justify;
+    line-height:   20px;
+    color:         #707070;
+    font-size:     14px;
+}
+
+.list1 {
+    margin-left:  0;
+    padding-left: 0;
+    list-style:   none;
+}
+
+.list1 li {
+    padding-left: 12px;
+    background:   url(/images/homepage17.gif) no-repeat left center;
+}
+
+/** LINKS */
+
+a {
+    color: #6C9294;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.link1 {
+    display:         block;
+    width:           90px;
+    height:          20px;
+    padding:         5px 0 0 0;
+    background:      url(/images/homepage08.gif) no-repeat left top;
+    text-decoration: none;
+    text-align:      center;
+    letter-spacing:  -1px;
+    font:            normal 13px Georgia, "Times New Roman", Times, serif;
+    color:           #FFFFFF;
+}
+
+.link1:hover {
+    text-decoration: underline;
+}
+
+.link2 {
+    display:         block;
+    width:           120px;
+    height:          30px;
+    padding:         5px 0 0 0;
+    background:      url(/images/homepage08.gif) no-repeat left top;
+    text-decoration: none;
+    text-align:      center;
+    letter-spacing:  -1px;
+    font:            normal 13px Georgia, "Times New Roman", Times, serif;
+    color:           #FFFFFF;
+}
+
+.link2:hover {
+    text-decoration: underline;
+}
+
+/** FOOTER */
+
+#footer {
+    height: 100px;
+}
+
+#footer p {
+    margin:      0;
+    padding:     10px 0 0 0;
+    text-align:  center;
+    line-height: normal;
+    color:       #407560;
+}
+
+/** TABLES */
+
+.table1 {
+    width: 100%;
+}
+
+.table1 tr {
+}
+
+.table1 td {
+    height:        31px;
+    padding:       0 10px;
+    background:    #CEE9EB;
+    border-bottom: 1px solid #FFFFFF;
+    color:         #6C9294;
+}
+
+.table1 td.left {
+    background: #CEE9EB url(/images/homepage19.gif) no-repeat left top;
+}
+
+.table1 td.right {
+    background: #CEE9EB url(/images/homepage20.gif) no-repeat right top;
+}
+
+.table1 tr.alt td {
+    background: #F3E2D0;
+}
+
+.table1 tr.alt td.left {
+    background: #F3E2D0 url(/images/homepage21.gif) no-repeat left top;
+}
+
+.table1 tr.alt td.right {
+    background: #F3E2D0 url(/images/homepage22.gif) no-repeat right top;
+}
+
+/** BACKGROUNDS */
+
+.bg1 {
+}
+
+/** MISC */
+
+.align-justify {
+    text-align: justify;
+}
+
+.align-right {
+    text-align: right;
+}
+
+img {
+    border: none;
+}
+
+img.left {
+    float:  left;
+    margin: 0 20px 0 0;
+}
+
+img.right {
+    float:  right;
+    margin: 0 0 0 20px;
+}
+
+hr {
+    display: none;
+}
+
+.hr1 {
+    height: 1px;
+}
+
+/** WRAPPER */
+
+#wrapper {
+    background: #F8F6F4 url(/images/subpage2_01.jpg) repeat-y center top;
+}
+
+#wrapper2 {
+    background: url(/images/homepage02.jpg) repeat-x left bottom;
+}
+
+#wrapper3 {
+    background: url(/images/homepage03.jpg) repeat-x left top;
+}
+
+#wrapper4 {
+    width:      1000px;
+    margin:     0 auto;
+    background: url(/images/subpage2_02.jpg) no-repeat left top;
+}
+
+#wrapper5 {
+    background: url(/images/subpage2_03.jpg) no-repeat left bottom;
+}
+
+/** BOX STYLE 1 */
+
+.box-style1 {
+    padding-bottom: 10px;
+}
+
+.box-style1 .title {
+}
+
+.box-style1 .title h1 {
+    margin:  0;
+    padding: 0;
+
+}
+
+.box-style1 .title h2 {
+    margin:      0;
+    padding:     0;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:   16px;
+    color:       #889A9B;
+}
+
+.box-style1 .content {
+    padding: 0;
+}
+
+/** BOX STYLE 2 */
+
+.box-style2 {
+    padding-bottom: 10px;
+    background:     url(/images/homepage09.jpg) no-repeat right top;
+}
+
+.box-style2 .title {
+    margin-right: 70px;
+    background:   url(/images/homepage10.jpg) repeat-x left bottom;
+}
+
+.box-style2 .title h2 {
+    height:     29px;
+    padding:    24px 0 0 16px;
+    background: url(/images/homepage11.jpg) no-repeat left bottom;
+    font-size:  14px;
+    color:      #FFFFFF;
+}
+
+.box-style2 .content {
+    margin-left: -50px;
+    padding:     15px 20px 0 70px;
+    background:  url(/images/homepage12.gif) no-repeat left top;
+}
+
+.box-style3 {
+    padding-bottom: 5px;
+}
+
+.box-style3 .title {
+    margin-right: 70px;
+    background:   url(/images/homepage10.jpg) repeat-x left bottom;
+}
+
+.box-style3 .title h2 {
+    height:     29px;
+    padding:    24px 0 0 16px;
+    background: url(/images/homepage11.jpg) no-repeat left bottom;
+    font-size:  14px;
+    color:      #FFFFFF;
+}
+
+.box-style3 .content {
+    margin-left: -50px;
+    padding:     15px 20px 0 70px;
+    background:  url(/images/homepage12.gif) no-repeat left top;
+}
+
+/** CONTENT */
+
+#content {
+    padding: 0 0 0 50px;
+}

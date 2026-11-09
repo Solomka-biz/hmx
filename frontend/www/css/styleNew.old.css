@@ -1,0 +1,1155 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3474364, 2017-10-27T15:18:30-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: ProximaNovaA-Bold by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/a-bold/
+ * 
+ * Webfont: ProximaNovaA-Regular by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/a-regular/
+ * 
+ * Webfont: ProximaNovaS-Bold by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/s-bold/
+ * 
+ * Webfont: ProximaNovaS-Regular by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/s-regular/
+ * 
+ * Webfont: ProximaNova-Bold by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/
+ * 
+ * Webfont: ProximaNova-Regular by Mark Simonson
+ * URL: https://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3474364
+ * Licensed pageviews: 1,000,000
+ * Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+  
+@font-face {font-family: 'ProximaNovaA-Bold';src: url('../fonts/3503BC_0_0.eot');src: url('../fonts/3503BC_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3503BC_0_0.woff2') format('woff2'),url('../fonts/3503BC_0_0.woff') format('woff'),url('../fonts/3503BC_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaA-Regular';src: url('../fonts/3503BC_1_0.eot');src: url('../fonts/3503BC_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3503BC_1_0.woff2') format('woff2'),url('../fonts/3503BC_1_0.woff') format('woff'),url('../fonts/3503BC_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-Bold';src: url('../fonts/3503BC_2_0.eot');src: url('../fonts/3503BC_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3503BC_2_0.woff2') format('woff2'),url('../fonts/3503BC_2_0.woff') format('woff'),url('../fonts/3503BC_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-Regular';src: url('../fonts/3503BC_3_0.eot');src: url('../fonts/3503BC_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3503BC_3_0.woff2') format('woff2'),url('../fonts/3503BC_3_0.woff') format('woff'),url('../fonts/3503BC_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-Bold';src: url('../fonts/3503BC_4_0.eot');src: url('../fonts/3503BC_4_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3503BC_4_0.woff2') format('woff2'),url('../fonts/3503BC_4_0.woff') format('woff'),url('../fonts/3503BC_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-Regular';src: url('../fonts/3503BC_5_0.eot');src: url('../fonts/3503BC_5_0.eot?#iefix') format('embedded-opentype'),url('../fonts/3503BC_5_0.woff2') format('woff2'),url('../fonts/3503BC_5_0.woff') format('woff'),url('../fonts/3503BC_5_0.ttf') format('truetype');}
+
+/**
+
+@font-face {
+  font-family: 'KazimirMedium';
+  src: url('../fonts/Kazimir Medium.otf') format('opentype'),
+  url('../fonts/kazimir_medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'Kazimir';
+  src: url('../fonts/Kazimir.otf') format('opentype'),
+  url('../fonts/kazimir-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roadradio';
+  src: url('../fonts/RoadRadio.ttf') format('truetype'),
+  url('../fonts/RoadRadio.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roadradio';
+  src: url('../fonts/RoadRadio-Bold.otf') format('opentype'),
+  url('../fonts/RoadRadio.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+*/
+
+.header__logo_large {
+    background: url(../images/logo-big.svg) no-repeat;
+    margin: 80px 0 0 -326px;
+}
+
+.descript{
+  padding: 44px 0 0;
+}
+.descript__wrap{
+  font-family: ProximaNova-Regular;
+  font-size: 28px;
+  line-height: 1.57;
+  text-align: center;
+  color: #333;
+}
+
+.descript_order{
+  padding: 10px 0 0;
+}
+
+.descript_sitefree{
+  padding: 20px 0 10px 0;
+}
+
+.ul_sitefree{
+  padding-left: 50px;
+  list-style: inherit;
+}
+
+.firstpar{
+  width: 90%;
+  margin: 0px auto 25px;
+}
+
+
+.action {
+  float: left;
+  margin-right: 20px;
+  width: 290px;
+  height: 478px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.09);
+  cursor: pointer;
+}
+.action:hover .action__button{
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.action__item1{
+  background-image: linear-gradient(to bottom, #a9e69a, #1b931c);
+}
+
+
+.action__item2{
+  background-image: linear-gradient(to bottom, #78b2ff, #1374d3);
+}
+
+.action__item3{
+  background-image: linear-gradient(to bottom, #edc004, #b16c14);
+}
+
+
+.main__inner{
+  font-family: 'ProximaNova-Regular', serif;
+  padding-bottom: 0;
+}
+
+.action__container{
+  height: 485px;
+  position: relative;
+  margin: 60px -150px 40px;
+  overflow: hidden;
+  width: 972px;
+}
+
+.stars3, .stars4, .stars5 {
+  padding: 28px 0 12px 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.action__price{
+  padding-bottom: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'ProximaNova-Bold', serif;
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+.action__adv li{
+  list-style: none;
+  font-family: ProximaNova-Regular;
+  font-size: 18px;
+  line-height: 1.65;
+  text-align: left;
+  color: #ffffff;
+}
+
+.action__active{
+  margin-left: 4px;;
+}
+
+.action__active_plus{
+  margin-left: -10px;
+}
+
+.action__unactive{
+  opacity: 0.52;
+  padding-left: 20px;
+  margin-left: -16px;
+}
+
+.action__button{
+  text-decoration: none;
+  margin: 0 auto;
+  display: block;
+  width: 237px;
+  padding: 9px 0 10px 0;
+  border-radius: 2px;
+  border: solid 1px #ffffff;
+  font-family: 'roadradiobold', sans-serif;
+  font-size: 22px;
+  letter-spacing: 2.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.action__descr{
+  padding-top: 2px;
+  margin: 0;
+  opacity: 0.8;
+  font-family: ProximaNova-Regular;
+  font-size: 15px;
+  line-height: 2;
+  text-align: center;
+  color: #ffffff;
+}
+
+.action__adv{
+  margin-bottom: 32px;
+  margin-left: 39px;
+  font-family: ProximaNova-Regular;
+}
+.page__optimiz{
+  margin: 55 0 0;
+
+}
+
+.optimiz__title{
+
+}
+
+.optimiz__block{
+  padding: 0px 15px 0;
+}
+
+.optimiz__pic {
+  margin-left: -100px;
+  float: left;
+  min-width: 92px;
+  margin-top: 6px;
+}
+
+.optimiz__right {
+  margin-left: 120px;
+}
+.optimiz__name {
+  font-family: 'roadradiobold', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #ff553b;
+}
+.optimiz__description {
+  font-size: 19px;
+  line-height: 1.61;
+  color: #333;
+  text-align: left;
+  padding: 28px 50px 0 0;
+}
+
+.optimiz__text{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  position: relative;
+  top: 73px;
+  right: 59px;
+  font-family: 'roadradiobold', sans-serif;
+  line-height: 1.27;
+}
+.optimiz__text span{
+  font-family: ProximaNova-Regular;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.optimiz__numbers{
+  line-height: 0.45;
+  width: 81px;
+  top: 79px;
+  font-family: 'roadradiobold', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: right;
+}
+.flag__img{
+  margin-top: -20px;
+  margin-bottom: 56px;
+  margin-left: 284px;
+}
+.flag__text{
+  font-family: 'roadradiobold', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  color: #ffffff;
+  top: 85px;
+  left: 59px;
+  line-height: 0.7;
+}
+
+.flag__text span{
+  font-family: ProximaNova-Regular;
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.form__container{
+  border-radius: 3px;
+  background-color: #fff2d3;
+  box-shadow: 3px 3px 0 0 rgba(148, 148, 148, 0.28);
+  position: relative;
+  margin: 40px -91px 75px;
+  overflow: hidden;
+  width: 820px;
+  padding-bottom: 60px;
+}
+
+.form__header{
+  font-weight: 600;
+  font-family: ProximaNova-Bold;
+  font-size: 34px;
+  line-height: 1.33;
+  text-align: left;
+  color: #333;
+  padding: 48px 0 0 54px;
+  margin-bottom: 45px;
+}
+
+.form__input{
+  padding-top: 30px;
+  padding-left: 54px;
+  font-family: ProximaNova-Regular;
+  font-size: 25px;
+  text-align: left;
+  color: #333;
+}
+
+.form__input input{
+  width: 418px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  font-family: ProximaNova-Regular;
+  font-size: 25px;
+  text-align: center;
+  color: #333;
+}
+
+.form__label-1{
+  padding-right: 36px;
+}
+.form__label-2{
+  padding-right: 56px;
+}
+.form__label-3{
+  padding-right: 155px;
+}
+
+.form__submit{
+  cursor: pointer;
+  border: 0;
+  font-family: ProximaNova-Bold;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 50px;
+  margin-left: 325px;
+  width: 435px;
+  height: 51px;
+  border-radius: 3px;
+  background-color: #6cc655;
+  box-shadow: 0 2px 0 0 #5a9a51;
+}
+
+.form__submit:hover{
+  background-color: #7cd964;
+}
+
+.form__input-prefix{
+  position: absolute;
+  top: 308px;
+  color: #777;
+  right: 418px;
+}
+.form__input input{
+  text-align: left;
+  border: 0;
+  padding-left: 12px;
+}
+
+input[name="order[email]"]{
+  width: 422px;
+  padding-left: 12px;
+}
+input[name="tel"] {
+  width: 380px;
+  padding-left: 42px;
+}
+input[name="order[phone]"]{
+  padding-left: 45px;;
+  width: 385px;
+}
+.form__input-zakaz2 input[name="order[email]"]{
+  padding-left: 12px;
+  width: 418px;
+}
+
+
+input[name="order[url]"]{
+  padding-left: 76px;
+  width: 355px;
+}
+input[name="email"] {
+  width: 410px;
+}
+input[name="name"] {
+  width: 410px;
+}
+.zakaz p.form__havent {
+  text-align: right;
+  padding: 5px 69px 10px 0;
+  color: #2375b1;
+  font-size: 14px;
+}
+.h2title{
+  padding-left: 28px;
+  font-family: ProximaNova-Bold;
+  font-size: 46px;
+  font-weight: 500;
+  text-align: left;
+  color: #333;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clients__block{
+  padding-top: 66px;
+}
+
+.clients__pic{
+  margin-left: -122px;
+  float: left;
+  min-width: 92px;
+  margin-top: 6px;
+}
+
+.clients__img-title{
+  position: relative;
+  top: 68px;
+  right: 81px;
+  text-align: right;
+  width: 170px;
+  color: #ffffff;
+  font-family: ProximaNova-Regular;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.clients__header{
+  padding-top: 24px;
+  padding-left: 145px;
+  font-family: 'roadradiobold', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #f15a24;
+  line-height: 21px;
+}
+
+.clients__header span{
+  font-family: ProximaNova-Regular;
+  font-size: 15px;
+  line-height: 1.43;
+  text-align: left;
+  color: #777777;
+  font-weight: 100;
+  letter-spacing: normal;
+}
+
+.clients__descr{
+  padding-top: 32px;
+  padding-left: 144px;
+  font-family: ProximaNova-Regular;
+  font-size: 19px;
+  line-height: 1.61;
+  text-align: left;
+  color: #333;
+}
+
+.clients__review{
+  padding: 27px 48px 33px 28px;
+  color: #2c2c2c;
+  font-family: ProximaNova-Regular;
+  font-size: 16px;
+  line-height: 22px;
+  float: left;
+  margin-top: 41px;
+  width: 424px;
+  border-radius: 2px;
+  background-color: #f3f3f3;
+}
+
+.clients__names{
+  position: relative;
+  left: 15.9px;
+  text-align: center;
+  padding-top: 12px;
+  font-family: ProximaNova-Regular;
+  font-size: 15px;
+  line-height: 1.2em;
+}
+.clients__names span{
+  margin-top: 5px;
+  display: block;
+  color: #838383;
+  font-family: ProximaNova-Regular;
+  font-size: 13px;
+  line-height: 1.2em;
+}
+
+.clients__foto{
+  margin-left: 19px;
+  margin-top: 42px;
+  border-radius: 135px;
+  width: 70px;
+}
+
+.more-clients{
+  cursor: pointer;
+  margin-bottom: 72px;
+  padding-top: 16px;
+  margin-top: 57px;
+  text-align: center;
+  width: 642px;
+  height: 34px;
+  border-radius: 3px;
+  background-color: rgba(121, 186, 253, 0.19);
+  color: #2375b1;
+  font-family: ProximaNova-Regular;
+  font-size: 20px;
+}
+
+.more-clients:hover{
+  background: #E2F3D3;
+}
+
+.benefits__title{
+  font-family: ProximaNova-Bold;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.footer__navi{
+  margin-bottom: 0;
+
+}
+
+.footer__navi li{
+  cursor: pointer;
+  padding-top: 21px;
+  text-align: center;
+  height: 50px;
+  border: 1px solid #bae3f2;
+  color: #2375b1;
+  font-family: ProximaNova-Regular;
+  font-size: 28px;
+  width: 710px;
+  margin-left: -36px;
+}
+
+.footer__navi li:hover{
+  background-color: #effbff;
+}
+
+.types__item{
+  margin-right: -1px;
+  box-sizing: border-box;
+  width: 216px;
+  height: 89px;
+  float: left;
+  border: solid 1px #c0c0c0;
+  position: relative;
+  z-index: 1;
+}
+
+.types{
+  overflow: hidden;
+  padding-top: 8px;
+  width: 102%;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.types__item-active, .types__item.types__item-active:hover{
+  border: 3px solid #2884d6;
+  z-index: 2;
+}
+.types__item-active .types__stars{
+  padding-top: 13px;
+  opacity: 1;
+  padding-bottom: 5px;;
+}
+.types__item:hover{
+  border: solid 1px #77baf6;
+  cursor: pointer;
+}
+.types__item:hover .types__stars,.types__item:hover .types__price{
+  opacity: 1;
+}
+
+.types__item3{
+  border-radius: 0 4px 4px 0;
+}
+.types__item1{
+  border-radius: 4px 0 0 4px;
+}
+.types__stars{
+  opacity: 0.5;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-family: 'roadradiobold', sans-serif;
+  font-size: 17px;
+  letter-spacing: 0.12em;
+}
+
+.types__price{
+  font-family: ProximaNova-Bold;
+  font-size: 30px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.types__item-active .types__price{
+  opacity: 1;
+}
+
+.types__month{
+  font-size:16px; 
+  color:gray; 
+  font-family: ProximaNova-Regular;
+}
+
+.descript__header{
+  line-height: normal;
+  font-family: ProximaNova-Bold;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 57px;
+  line-height: 1.1em;
+}
+
+.ditem{
+  padding-bottom: 53px;
+  margin-left: 59px;
+}
+.ditem__header{
+  font-family: RoadRadiobold;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #ff553b;
+}
+
+.ditem__par{
+  padding-top: 21px;
+  font-family: ProximaNova-Regular;
+  font-size: 19px;
+  line-height: 1.61;
+  text-align: left;
+  padding-right: 50px;
+}
+.order__container{
+  padding: 0 53px;
+}
+
+.order__header{
+  font-family: ProximaNova-Bold;
+  font-size: 46px;
+  font-weight: 500;
+  text-align: center;
+  padding: 50px 0;
+}
+.order__title{
+  padding-bottom: 45px;
+}
+.order__title span{
+  font-weight: bold;
+}
+
+.order p{
+  font-family: ProximaNova-Regular;
+  font-size: 25px;
+  line-height: 1.58;
+}
+.order__left{
+  float: left;
+  text-align: left;
+}
+.order__right{
+  font-weight: bold;
+  text-align: right;
+  float: right;
+  padding-bottom: 57px;
+}
+.order .order__img-header{
+  position: relative;
+  bottom:133px;
+  font-family: RoadRadiobold;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+.order .order__image-descr{
+  position: relative;
+  bottom:128px;
+  font-family: ProximaNova-Bold;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.zakaz{
+  width: 800px;
+  margin-top: -83px;
+}
+.form__input-zakaz{
+  padding-left: 0;
+}
+
+.zakaz__label-1{
+  padding-right: 62px;
+
+}
+.zakaz__label-2{
+  padding-right: 179px;
+
+}
+.zakaz__label-3{
+  padding-right: 226px;
+
+}
+.zakaz__label-4{
+  padding-right: 194px;
+}
+
+.zakaz__site-prefix{
+  top:   57px;
+  right: 392px;
+  color: #777;
+}
+
+.zakaz__phone-prefix{
+  top: 340px;
+  left: 365px;
+  color: #777;
+}
+
+.zakaz__submit{
+  margin-left: 299px;
+}
+
+.order{
+  padding-bottom: 40px;
+}
+
+.sales__header{
+  padding-top: 73px;
+  font-family: RoadRadiobold;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.sales__block{
+  margin: 60px 31px 0;
+  width: 590px;
+  border-radius: 3px;
+  background-image: linear-gradient(to bottom, #78b2ff, #1374d3);
+  box-shadow: 2px 2px 0 0 rgba(0, 0, 0, 0.09);
+}
+
+.sales__block2{
+  padding-bottom: 39px;
+  background-image: linear-gradient(to bottom, #edc004, #b16c14);
+}
+.sales__block3{
+  background-image: linear-gradient(to bottom, #ff78b4, #800f47);
+}
+
+.sales__img{
+  position: relative;
+  top: 20px;
+  right: 35px;
+}
+
+.sales__img-header{
+  position: relative;
+  font-family: RoadRadiobold;
+  bottom: 16px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+.sales__descr{
+  padding: 45px;
+  font-family: ProximaNova-Regular;
+  font-size: 28px;
+  line-height: 1.36;
+  text-align: center;
+  color: #ffffff;
+}
+.sales__more{
+  cursor: pointer;
+  font-family: ProximaNova-Regular;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+  padding-top: 12px;
+  width: 272px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #fff;
+}
+.sales__more:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+
+}
+.sales__footer{
+  font-size: 20px;
+  padding-top: 55px;
+  padding-bottom: 72px;
+  text-align: center;
+}
+.headerNav__item_active:after{
+  position: absolute;
+  left: -13px;
+  right: -12px;
+  top: -6px;
+  bottom: -4px;
+  background: #fffcca;
+  display: block;
+  content: '';
+  border-radius: 3px;
+}
+
+.main__header {
+  padding-top: 59px;
+}
+.main__header_index{
+  padding-top: 20px;
+}
+.block__hidden{
+  display: none;
+}
+
+::-webkit-input-placeholder{
+  font-weight: 100;
+  color: #cacaca;
+  font-family: ProximaNova-Regular;
+  font-size: 25px;
+}
+::-moz-placeholder{
+  font-weight: 100;
+  color: #cacaca;
+  font-family: ProximaNova-Regular;
+  font-size: 20px;
+}
+:-moz-placeholder{
+  font-weight: 100;
+  color: #cacaca;
+  font-family: ProximaNova-Regular;
+  font-size: 20px;
+}
+:-ms-input-placeholder{
+  font-weight: 100;
+  color: #cacaca;
+  font-family: ProximaNova-Regular;
+  font-size: 20px;
+}
+
+.block_hidden{
+  display: none;
+}
+
+.block_visible{
+  display: block;
+}
+
+li.footer__navi_active {
+  border-top: 2px solid #bae3f2;
+}
+h1.main__title {
+  color: #333;
+  font-family: 'roadradiobold', sans-serif;
+  font-size: 48px;
+  padding-top: 0px;
+}
+.headerNav__itemLink{
+  font-family: ProximaNova-Regular;
+  font-size: 20px;
+  padding-bottom: 2px;
+}
+.headerNav__itemLink:hover, {
+    border-color: #fff9b0;
+}
+span.ya-phone {
+  font-family: ProximaNova-Regular;
+  font-size: 15px;
+  color: #cfcfcf;
+}
+.headerNav__item_services:after {
+  width: 226px;
+  left: -56px;
+}
+.headerNav__item_services a{
+  right: 40px
+}
+.footer__inner{
+  font-family: ProximaNova-Regular;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #d8d8d8;
+}
+
+.footer__contactTitle{
+  color: #ffffff;
+}
+.footer__col{
+  width: 33%;
+  margin-left: 0;
+}
+
+.main__title{
+  padding-top: 28px;
+}
+
+.main__title_order{
+  padding-top: 28px;
+  text-align: center;
+}
+
+div.main__title{
+  font-family: ProximaNova-Regular;
+  font-size: 32px;
+  color: #333;
+}
+
+div.main__title_order{
+  font-family: ProximaNova-Regular;
+  color: #333;
+  font-size: 40px;
+}
+
+.header__contactPhone .ya-phone {
+  font-size: 20px;
+  color: #508394;
+}
+
+.main__largeTitle{
+  margin-top: -14px;
+  font-size: 96px;
+  letter-spacing: 2.7px;
+}
+
+.main__largeTitle_order{
+  margin-top: -14px;
+  font-size: 60px;
+  letter-spacing: 2.7px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'roadradiobold', sans-serif;
+  text-transform: uppercase;
+}
+
+.main__inner_page {
+  margin-top: 46px;
+  padding-right: 36px;
+  padding-bottom: 0;
+}
+
+.main__inner_pageorder {
+  margin-top: 0px;
+  padding-right: 36px;
+  padding-bottom: 0;
+}
+
+.main__semiTitle {
+  color: #ff553b;
+}
+
+.header__slogan{
+  display: none;
+}
+
+.main:after{
+
+  margin-left: -453px;
+  top: 16px;
+
+  width: 908px;
+  height: 309px;
+}
+
+.main p.form__havent {
+  text-align: right;
+  padding: 5px 69px 10px 0;
+  color: #2375b1;
+  font-size: 14px;
+}
+
+.header__contactPhone {
+  color: #1C95BE;
+  position: relative;
+  left: 2px;
+}
+
+.types__item3 p {
+  /* padding-right: 13px; */
+}
+
+
+.header__slogan{
+  display: none;
+}
+
+.header {
+  padding: 46px 0 0 0;
+  position: relative;
+  top: 8px;
+
+}
+
+.headerNav__item:last-child {
+  left: -8px;
+}
+
+.types__item1 p {
+  /* padding-right: 9px; */
+}
+
+input[name="feedback[message]"]{
+  width: 356px;
+  padding-left: 75px;
+}
+input[name="feedback[phone]"]{
+  width: 412px;
+}
+
+.headerNav__item_order:after{
+  width: 158px;
+}
+
+.mainForm__errors {
+    font-size: 11px;
+    position: relative;
+    top: -41px;
+    left: 618px;
+    color: #f15a24;
+    right: 10px;
+    line-height: 11px;
+    max-width: 100px;
+    display: block;
+    height: 0;
+}
+.mainForm__errors_right {
+    position: absolute;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: right;
+}

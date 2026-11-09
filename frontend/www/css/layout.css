@@ -1,0 +1,148 @@
+/** BASIC */
+html, body {
+    height: 100%;
+}
+
+/** HEADER */
+
+#header {
+    width:   900px;
+    height:  190px;
+    margin:  0 auto;
+    padding: 70px 0 0 0;
+}
+
+#header2 {
+    float:   right;
+    width:   230px;
+    margin:  10px auto;
+    padding: 5px 0 0 0;
+}
+
+#header3 {
+    float:   left;
+    width:   600px;
+    margin:  10px auto;
+    padding: 8px 0 0 100px;
+}
+
+/** LOGO */
+
+#logo {
+    float:      left;
+    width:      450px;
+    height:     125px;
+    background: url(/images/homepage04.jpg) no-repeat left top;
+}
+
+#logo h1 {
+    text-indent: 0;
+    color:       #FFFFFF;
+    padding:     46px 0 0 50px;
+}
+
+/** PAGE */
+
+#page {
+    width:          900px;
+    margin:         0 auto;
+    padding-bottom: 50px;
+    min-height:     400px;
+    clear:          both;
+}
+
+#page2 {
+    width:          900px;
+    margin:         0 10px;
+    padding-bottom: 50px;
+    clear:          both;
+}
+
+/** CONTENT */
+
+#content {
+    float:   left;
+    width:   500px;
+    padding: 0 0 0 50px;
+}
+
+#content2 {
+    float:   left;
+    padding: 10px 0 150px 50px;
+}
+
+#content3 {
+    float:   left;
+    padding: 10px 0 150px 50px;
+}
+
+.wide-subpage #content {
+    float:   none;
+    width:   auto;
+    padding: 0 50px;
+}
+
+/** SIDEBAR */
+
+#sidebar {
+    float:   right;
+    width:   250px;
+    padding: 0 50px 0 50px;
+}
+
+#sidebar2 {
+    float:   right;
+    width:   390px;
+    padding: 10px 0 0 0;
+}
+
+/** BOX1 */
+
+#box1 {
+}
+
+/** BOX2 */
+
+#box2 {
+}
+
+#box2 .link1 {
+    margin: 0 auto;
+}
+
+#box2 .column1, #box2 .column2, #box2 .column3 {
+    float: left;
+    width: 200px;
+}
+
+#box2 .column2, #box2 .column3 {
+    margin-left: 30px;
+}
+
+/** BOX3 */
+
+#box3 {
+}
+
+/** BOX4 */
+
+#box4 {
+}
+
+/** BOX5 */
+
+#box5 {
+}
+
+/** BOX6 */
+
+#box6 {
+}
+
+.description span.style3 {
+    font-size: 2em;
+}
+
+.description span.style1 {
+    color: #FF0000
+}

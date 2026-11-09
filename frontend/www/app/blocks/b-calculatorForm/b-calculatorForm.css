@@ -1,0 +1,213 @@
+/**
+ *
+ */
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display:     table;
+    line-height: 0;
+    content:     "";
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.b-calculatorForm {
+    padding: 20px 20px 20px 0;
+}
+
+.b-calculatorForm__formError {
+    color:         #ff5555;
+    margin-bottom: 20px;
+}
+
+.b-calculatorForm__field {
+
+}
+
+.b-calculatorForm__fieldError {
+    color: #ff5555;
+}
+
+.b-calculatorForm__label {
+    color:       #488EB2;
+    font-weight: bold;
+}
+
+.b-calculatorForm__fieldInput {
+    width: 357px;
+}
+
+.b-calculatorForm__fieldInput_mode_url {
+    width: 312px;
+}
+
+.b-calculatorForm__fieldInput_mode_keywords {
+    height: 72px;
+}
+
+.b-calculatorForm__submitButton {
+    font-family:      'Helvetica', 'Arial', 'sans-serif', serif;
+    line-height:      1.4;
+    display:          block;
+    width:            363px;
+    text-align:       center;
+    text-decoration:  none;
+    outline:          none;
+    border-radius:    4px;
+    cursor:           pointer;
+    background-color: #b9dd74;
+    background-image: -webkit-linear-gradient(top, #b9dd74, #93b53d);
+    background-image: -moz-linear-gradient(top, #b9dd74, #93b53d);
+    background-image: -o-linear-gradient(top, #b9dd74, #93b53d);
+    background-image: -ms-linear-gradient(top, #b9dd74, #93b53d);
+    background-image: linear-gradient(top, #b9dd74, #93b53d);
+    border:           solid 1px;
+    border-color:     #dbefa9 #87b03f #759729 #dbefa9;
+    color:            #FFF;
+    font-weight:      400;
+    font-size:        17px;
+    padding:          7px 17px;
+    clear:            both;
+}
+
+.b-calculatorForm__submitButtonText {
+    position: relative;
+}
+
+.b-calculatorForm__submitButtonLoading {
+    background:  url('/images/load.gif') no-repeat 3px 3px;
+    width:       21px;
+    height:      21px;
+
+    content:     " ";
+
+    display:     inline-block;
+    display:     none;
+    position:    absolute;
+    margin-left: 5px;
+    float:       right;
+
+    opacity:     1;
+}
+
+.b-calculatorForm__orderButton {
+    font-family:      'Helvetica', 'Arial', 'sans-serif', serif;
+    line-height:      1.4;
+    display:          block;
+    width:            328px;
+    text-align:       center;
+    text-decoration:  none;
+    outline:          none;
+    border-radius:    4px;
+    cursor:           pointer;
+    background-color: #8accf6;
+    background-image: -webkit-linear-gradient(top, #8accf6, #6eb0da);
+    background-image: -moz-linear-gradient(top, #8accf6, #6eb0da);
+    background-image: -o-linear-gradient(top, #8accf6, #6eb0da);
+    background-image: -ms-linear-gradient(top, #8accf6, #6eb0da);
+    background-image: linear-gradient(top, #8accf6, #6eb0da);
+    border:           solid 1px #3283b1;
+    border-top-color: #83c3eb;
+    box-shadow:       inset 0 1px 0 #aaecff;
+    color:            #FFF;
+    font-weight:      400;
+    font-size:        17px;
+    padding:          7px 17px;
+}
+
+.b-calculatorForm__addButton,
+.b-calculatorForm__addHintButton {
+    cursor: pointer;
+
+}
+
+.b-calculatorForm__hintRow {
+    margin:      0 0 3px 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size:   12px;
+    color:       #555555;
+
+}
+
+.b-calculatorForm__addButtonTitle {
+    margin: 0 0 0 2px;
+    color:  #5366a1;
+}
+
+.b-calculatorForm__addButtonIcon {
+
+}
+
+.b-calculatorForm__editButton,
+.b-calculatorForm__editHintButton {
+    position:        relative;
+    top:             3px;
+    left:            3px;
+    text-decoration: none;
+    cursor:          pointer;
+}
+
+.b-calculatorForm__deleteButton,
+.b-calculatorForm__deleteHintButton,
+.b-calculatorForm__ignoreHintButton {
+    position:        relative;
+    top:             3px;
+    left:            1px;
+    text-decoration: none;
+    cursor:          pointer;
+}
+
+.b-calculatorForm__ignoreHintButton {
+    left: 2px;
+}
+
+.b-calculatorForm__result {
+    clear:         both;
+    margin-bottom: 20px;
+}
+
+.b-calculatorForm__resultTitle {
+    float: left;
+}
+
+.b-calculatorForm__resultSum {
+    float: right;
+}
+
+.b-calculatorForm__exportBlock {
+
+}
+
+.b-calculatorForm__exportRow {
+    float: right;
+}
+
+.b-calculatorForm__printButton,
+.b-calculatorForm__wordButton,
+.b-calculatorForm__excelButton {
+    padding: 2px;
+    width:               20px;
+    height:              20px;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+.b-calculatorForm__printButton {
+
+}
+
+.b-calculatorForm__wordButton {
+
+}
+
+.b-calculatorForm__excelButton {
+
+}
